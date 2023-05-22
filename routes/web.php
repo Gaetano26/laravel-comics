@@ -19,3 +19,9 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/comics/{index}', function ($index) {
+    $comics = config('db.comics');
+    $comic = $comics[$index];
+    return view('comics.show', compact('comic') );
+})->name('comics.show');
