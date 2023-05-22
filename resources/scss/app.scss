@@ -132,6 +132,10 @@ footer img {
 .cont-img-3 {
     width: 200px;
     height: 200px;
+    position: absolute;
+    left : 10%;
+    top: -20% ;
+
 
 }
 
@@ -145,4 +149,8 @@ footer img {
 .img-4 {
     width: 60px;
     height: 60px;
+}
+
+.font {
+    font-size: 15px;
 }
