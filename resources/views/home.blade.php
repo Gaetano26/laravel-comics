@@ -6,10 +6,10 @@
    <div class="row row-cols-sm-2 row-cols-md-4 row-cols-lg-6 mt-5 mb-2 px-2 gap-0">
       @foreach ($comics as $comic )
         <div class="col">
-                <div class=" cont-img  text-center">
-                    <img :src="{{ $comic['thumb'] }}" :alt="{{ $comic['thumb'] }}" class="img-fluid">
+                <div class=" cont-img-2  text-center">
+                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="img-fluid">
                 </div>
-                <div class=" mt-3 ps-2  text-white">
+                <div class=" mt-3 ps-2 titl  text-white">
                     <p>{{ $comic['title'] }} </p>
 
                 </div>

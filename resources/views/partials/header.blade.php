@@ -9,7 +9,7 @@
                 </div>
 
                 <div class="col-lg-8 ps-5 mt-5">
-                    <ul class="d-flex h-100  align-items-center gap-4">
+                    <ul class="d-flex h-100  align-items-center gap-4 links">
                         <li class="ps-1"">
                             <a class="fw-bold" href="">Characters</a>
                         </li>
@@ -44,7 +44,7 @@
                 </div>
         </div>
 </header>
-<div class="jumbotrone">
+<div class="jumbotrone bg-dark">
     <div class="overflow-hidden cont-img">
         <img class="img-fluid" src="{{ Vite::asset('resources/loghi/jumbotron.jpg') }}" alt="">
 
